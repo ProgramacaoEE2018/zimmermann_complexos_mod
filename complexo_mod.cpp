@@ -19,7 +19,7 @@ Complexo	Complexo::Diferenca(Complexo z)
 		return z1;
 	}
 
-Complexo	Complexo :: Produto(Complexo z) 
+Complexo	Complexo::Produto(Complexo z) 
 	{
 		Complexo z2(real, im);
 		z2.real = (this->real * z.real) - (this->im * z.im);
