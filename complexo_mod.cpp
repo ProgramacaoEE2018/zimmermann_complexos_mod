@@ -11,7 +11,7 @@ float  Complexo::Modulo()
 		mod = sqrt(real ^ 2 + im ^ 2);
 		return mod
 	}
-Complexo	Complexo:: Diferenca(Complexo z)
+Complexo	Complexo::Diferenca(Complexo z)
 	{
 		Complexo z1(real, im);
 		z1.real = this->real - z.real;
@@ -27,7 +27,7 @@ Complexo	Complexo :: Produto(Complexo z)
 		return z2;
 	}
 
-Complexo	Complexo:: Divisao(Complexo z)
+Complexo	Complexo::Divisao(Complexo z)
 	{
 		Complexo z3(real, im);
 		z3.real = (this->real*z.real + this->im * z.im)/(z.real^2 + z.im^2);
@@ -35,7 +35,7 @@ Complexo	Complexo:: Divisao(Complexo z)
 		return z3;
 	}
 
-Complexo	Complexo:: Soma(Complexo z)
+Complexo	Complexo::Soma(Complexo z)
 	{
 		Complexo z4(real, im);
 		z4.real = this->real + z.real;
